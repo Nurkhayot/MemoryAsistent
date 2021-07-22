@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="add-form form-valyuta">
+      <div class="box">
+        
+        <input type="text" id="en" value="" placeholder="Eng" required />
+        <button type="button" id="btn-en" onclick="enSpeak()">Speak</button><br />
+        <img src="./images/com.png" alt="" />
+        
+        <input type="text" id="uz" value="" placeholder="Uzb" required />
+        <button type="button" id="btn-en1" onclick="uzSpeak()">Speak</button><BR></BR>
+        
+      </div>
+	  <button class="btn-submit" type="button" onclick="addWord()">ADD TO VOCABULARY</button>
+             
+
+    </form>
+
+    <div class="container">
+      
+    </div>
+
+    <div class="wrapper">
+      <input type="checkbox" id="input-gam" />
+      <label class="label-gam" for="input-gam"></label>
+      <div class="modal">
+        <div class="box">
+        
+        <h2 class="js-message info-title">ENG</h2>
+        
+        <img src="./images/com.png" alt="" />
+        
+        <input type="text" id="reuzb" value="" placeholder="Uzb" required />
+        <button type="button" class="re-Btn" onclick="reBtnfunc()">Enter</button><button class="next-btn" type="button" onclick="reWords()">Begin next</button><BR></BR>
+        
+        </div>
+        <div class="answers">
+          <h2 class="javob">😉Lug'atlarni tezlik bilan yod oling! </h2>
+        </div>
+      </div>
+    </div>
+	
+    <div class="container">
+       <button type="button" class="another-btn" onclick="anotherBtn()"><img width="48" height="48" src="./images/mic.png" alt=""></button>
+    </div>
+   
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
