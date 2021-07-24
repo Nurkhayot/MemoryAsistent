@@ -1,8 +1,10 @@
 var rec = new webkitSpeechRecognition();
 var inputEn = document.querySelector("#en");
 var inputUz = document.querySelector("#uz");
-var enWords = ["white", "red", "green", "yellow"];
-var uzWords = ["oq", "qizil", "yashil", "sariq"];
+var enWords = [];
+"white", "red", "green", "yellow";
+var uzWords = [];
+"oq", "qizil", "yashil", "sariq";
 var indexNum;
 var reWordsSec = document.querySelector(".re-word");
 var reBtn = document.querySelector(".re-Btn");
